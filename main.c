@@ -4,6 +4,13 @@ celor N țări (denumire, listă vecini), lista de culori posibile și determin�
 țară în parte.
 */
 
+/* Date de intrare:
+N - numărul de țări (număr întreg)
+denumirea țărilor - array de texte
+lista vecinilor pentru fiecare țară - array?
+lista de culori - array de texte
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
