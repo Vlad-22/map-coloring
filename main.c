@@ -9,6 +9,8 @@ N - numărul de țări (număr întreg)
 denumirea țărilor - array de texte
 lista vecinilor pentru fiecare țară - array?
 lista de culori - array de texte
+    Date de ieșire:
+culoarea pentru fiecare țară (respectând regulile)
 */
 
 #include <stdio.h>
