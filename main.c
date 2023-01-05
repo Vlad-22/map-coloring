@@ -19,10 +19,15 @@ culoarea pentru fiecare țară (respectând regulile)
 int main()
 {
     // 1. Definim parametrii cu care lucrăm
+    int N;
+
     // 2. Citim datele de intrare
+    printf("Introduceti numarul de tari: ");
+    scanf("%d", &N);
+
     // 3. Prelucrăm datele ca să obținem rezultatul
     // 4. Afișăm rezultatul.
+    printf("\nNumarul de tari este: \n", N);
 
-    printf("Hello world!\n");
     return 0;
 }
