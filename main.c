@@ -27,7 +27,7 @@ int main()
 
     // 3. Prelucrăm datele ca să obținem rezultatul
     // 4. Afișăm rezultatul.
-    printf("\nNumarul de tari este: \n", N);
+    printf("\nNumarul de tari este: %d\n", N);
 
     return 0;
 }
