@@ -18,6 +18,11 @@ culoarea pentru fiecare țară (respectând regulile)
 
 int main()
 {
+    // 1. Definim parametrii cu care lucrăm
+    // 2. Citim datele de intrare
+    // 3. Prelucrăm datele ca să obținem rezultatul
+    // 4. Afișăm rezultatul.
+
     printf("Hello world!\n");
     return 0;
 }
