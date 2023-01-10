@@ -19,11 +19,21 @@ culoarea pentru fiecare țară (respectând regulile)
 int main()
 {
     // 1. Definim parametrii cu care lucrăm
-    int N;
+    int N, i;
+    char countries[N][20];
 
     // 2. Citim datele de intrare
     printf("Introduceti numarul de tari: ");
     scanf("%d", &N);
+    for (i = 0; i < N; i++)
+    {
+        printf("\nTara numarul %d: ", i+1);
+        scanf("%s", countries[i]);
+    }
+    for (i = 0; i < N; i++)
+    {
+         printf("\n%d -> %s: \n", i, countries[i]);
+    }
 
     // 3. Prelucrăm datele ca să obținem rezultatul
     // 4. Afișăm rezultatul.
