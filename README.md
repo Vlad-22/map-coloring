@@ -1,7 +1,7 @@
 # map-coloring
 School exercise: coloring a map with N countries
 
-Noțiuni generale
+### Noțiuni generale
 
 În implementarea aplicației am ținut cont:
 - să am nume de variabile care să facă codul ușor de urmărit
@@ -9,11 +9,11 @@ Noțiuni generale
 
 Deci aplicația este atât pe înțelesul programatorului (vezi și comentariile din cod), cât și pe înțelesul utilizatorului (mesaje ușor de urmărit).
 
-Definirea variabilelor
+### Definirea variabilelor
 
 Avem număr de țări, număr de culori, listă de țări, listă de culori, map - matrice de adiacență, countries_colors - aici salvăm culorile pentru fiecare țară, adică rezultatul problemei.
 
-Algoritmul
+### Algoritmul
 
 Se citesc datele de intrare (practic o hartă, care este o listă de țări și vecinii pentru fiecare țară + culorile posibile).
 
@@ -23,7 +23,7 @@ Luăm pe rând țările din listă și încercăm pe rând culori din lista de c
 
 La final afișăm culoarea selectată pentru fiecare țară.
 
-Concluzii
+### Concluzii
 
 Faptul că am codificat datele de intrare ca o simplă matrice de adiacență ajută să detectăm ușor vecinii țărilor atunci când căutăm culori pentru ele. De asemenea, faptul că folosim de regulă indecși ai țărilor și ai culorilor - ajută la optimizare (memorie și viteză de calcul). Totuși, atât la citire, cât și la afișare am preferat să citim și să afișăm nume de culori și nume de țări. Rezultatul e o aplicație utilă pentru un programator care vrea să învețe să programeze în C.
 
