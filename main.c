@@ -30,14 +30,15 @@ int main()
         printf("\nTara numarul %d: ", i+1);
         scanf("%s", countries[i]);
     }
-    for (i = 0; i < N; i++)
-    {
-         printf("\n%d -> %s: \n", i, countries[i]);
-    }
 
     // 3. Prelucrăm datele ca să obținem rezultatul
     // 4. Afișăm rezultatul.
     printf("\nNumarul de tari este: %d\n", N);
+      for (i = 0; i < N; i++)
+    {
+         printf("\n%d -> %s: \n", i, countries[i]);
+    }
+
 
     return 0;
 }
